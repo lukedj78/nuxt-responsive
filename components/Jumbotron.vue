@@ -13,7 +13,7 @@
       in.
     </p>
     <div>
-      <button class="btn bg-red-500 mt-5">Learn More</button>
+      <NuxtLink to="/place" class="btn bg-red-500 mt-5">Learn More</NuxtLink>
     </div>
   </div>
 </template>
