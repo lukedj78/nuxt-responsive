@@ -56,7 +56,7 @@
             <div class="text-sm italic">2 min ago</div>
           </div>
           <iframe
-            class="h-64 w-full mb-10"
+            class="h-64 w-full mb-10 rounded"
             src="https://www.youtube.com/embed/ywuVe6T2P2E"
           >
           </iframe>
