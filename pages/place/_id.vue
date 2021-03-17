@@ -2,14 +2,16 @@
   <div>
     <Hero />
     <div class="m-10 md:m-20 lg:mx-64">
-      <div class="grid grid-cols-1 md:grid-cols-5 gap-y-20 md:gap-20">
+      <div
+        class="grid grid-cols-1 md:grid-cols-5 gap-y-20 md:gap-20 text-gray-600"
+      >
         <div
           class="col-span-2 md:border-solid md:border-r-2 md:border-gray-300 md:pr-10"
         >
-          <div class="font-bold text-2xl mb-5">
+          <div class="font-bold text-2xl mb-5 text-black">
             Quisque viverra interdum velit?
           </div>
-          <p class="text-sm text-gray-600 leading-6">
+          <p class="text-sm leading-6">
             Lorem ipsum dolor sit amet consectetur adipiscing elit sodales
             primis, mollis viverra conubia ligula inceptos laoreet libero
             tortor, nascetur non habitasse iaculis tempor nec egestas fames
@@ -30,11 +32,11 @@
         </div>
         <div class="col-span-3">
           <div class="mb-10">
-            <div class="flex items-center font-bold text-xl pb-5">
+            <div class="flex items-center font-bold text-xl pb-5 text-black">
               <BaseAvatar />
               <div class="pl-2">Jonathan Walker</div>
             </div>
-            <p class="text-sm pb-3 text-gray-600 leading-6">
+            <p class="text-sm pb-3 leading-6">
               In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla
               faucibus ipsum sed faucibus accumsan. Donec rhoncus luctus massa
               vitae lobortis. Duis consequat, nunc a pretium imperdiet, neque
@@ -43,11 +45,11 @@
             <div class="text-sm italic">2 min ago</div>
           </div>
           <div class="mb-10">
-            <div class="flex items-center font-bold text-xl pb-5">
+            <div class="flex items-center font-bold text-xl pb-5 text-black">
               <BaseAvatar />
               <div class="pl-2">Brenda Mercer</div>
             </div>
-            <p class="text-sm pb-3 text-gray-600 leading-6">
+            <p class="text-sm pb-3 leading-6">
               In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla
               faucibus ipsum sed faucibus accumsan. Donec rhoncus luctus massa
               vitae lobortis. Duis consequat, nunc a pretium imperdiet, neque
