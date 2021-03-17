@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col justify-between text-white p-20 bg-gray-400 h-72"
+    class="flex flex-col justify-between text-white p-5 md:p-20 bg-gray-400 h-72"
     :style="`background-image: url('${bgImg}');background-size: cover;`"
   >
     <div class="text-center mt-20">
@@ -15,13 +15,19 @@
     <div class="flex justify-between items-end mt-20">
       <div class="flex justify-between items-center">
         <BaseAvatar />
-        <div class="text-sm pl-4 font-bold">by Steven Voorhees</div>
+        <div class="text-sm pl-4 font-bold hidden md:block">
+          by Steven Voorhees
+        </div>
       </div>
 
-      <div class="border-dashed rounded border-2 border-white p-5 w-64">
+      <div
+        class="p-5 rounded border-dashed md:border-2 md:border-white md:w-64"
+      >
         <div class="uppercase font-bold text-base text-red-600">Next story</div>
-        <div class="font-bold text-sm">Morbi eleifend a libero</div>
-        <p class="text-sm">
+        <div class="font-bold text-sm hidden md:block">
+          Morbi eleifend a libero
+        </div>
+        <p class="text-sm hidden md:block">
           Quisque viverra interdum velit, et cursus magna sagittis in. In dui
           dui.
         </p>
