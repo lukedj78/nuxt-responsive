@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-between items-center bg-white h-14 p-4">
-    <NuxtLink to="/" class="font-bold text-xs text-red-700">LOGO</NuxtLink>
+    <NuxtLink to="/" class="font-bold text-sm text-red-600">LOGO</NuxtLink>
     <div class="flex items-center space-x-5">
       <ul
         class="flex justify-between h-full space-x-5 text-xs text-gray-500 font-bold uppercase cursor-pointer hidden md:flex"
