@@ -1,8 +1,8 @@
 <template>
   <div>
     <Hero />
-    <div class="m-10 md:m-20 lg:mx-64">
-      <div class="flex text-gray-600">
+    <section class="max-w-screen-lg mx-auto my-10">
+      <div class="mx-10 text-gray-600 space-y-10 md:flex">
         <div
           class="max-w-xs md:border-solid md:border-r-2 md:border-gray-300 md:pr-10"
         >
@@ -28,7 +28,7 @@
             suspendisse quis ultricies dis tellus cum, litora aliquet.
           </p>
         </div>
-        <div class="pl-10">
+        <div class="md:pl-10">
           <div class="mb-10">
             <div class="flex items-center font-bold text-xl pb-5 text-black">
               <BaseAvatar />
@@ -62,7 +62,7 @@
           </iframe>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 

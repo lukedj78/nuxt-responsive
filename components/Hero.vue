@@ -4,16 +4,22 @@
     :style="`background-image: url('${bgImg}');background-size: cover;`"
   >
     <div class="text-center mt-20">
-      <div class="uppercase text-3xl font-bold">
+      <div
+        v-appear:top="{ delay: 300, duration: 700 }"
+        class="uppercase text-3xl font-bold"
+      >
         Amazing place in America to visit
       </div>
       <ul class="flex justify-between m-auto font-bold uppercase text-sm w-64">
-        <li>Travelguide</li>
-        <li>World news</li>
+        <li v-appear:left="{ delay: 500, duration: 700 }">Travelguide</li>
+        <li v-appear:right="{ delay: 500, duration: 700 }">World news</li>
       </ul>
     </div>
     <div class="flex justify-between items-end mt-20">
-      <div class="flex justify-between items-center">
+      <div
+        v-appear:left="{ delay: 1000, duration: 700 }"
+        class="flex justify-between items-center"
+      >
         <BaseAvatar />
         <div class="text-sm pl-4 font-bold hidden md:block">
           by Steven Voorhees
@@ -21,7 +27,8 @@
       </div>
 
       <div
-        class="p-5 rounded border-dashed md:border-2 md:border-white md:w-64"
+        v-appear:right="{ delay: 1000, duration: 700 }"
+        class="p-5 rounded border-dashed md:border-2 md:border-white md:max-w-xs"
       >
         <div class="uppercase font-bold text-base text-red-600">Next story</div>
         <div class="font-bold text-sm hidden md:block">

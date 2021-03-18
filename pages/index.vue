@@ -15,6 +15,7 @@
         </div>
         <div></div>
       </section>
+
       <section class="max-w-screen-lg mx-auto my-10">
         <div class="flex justify-between">
           <h2 class="font-bold text-2xl uppercase mb-10">Happeing now</h2>

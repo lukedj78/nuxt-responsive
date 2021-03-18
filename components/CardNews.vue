@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white p-10 md:py-10 px-24">
+  <div class="bg-white p-10 md:py-10 md:px-24">
     <div
       class="flex justify-between items-center font-bold uppercase text-2xl border-b-2 border-gray-300 pb-5"
     >

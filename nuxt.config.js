@@ -17,7 +17,11 @@ export default {
   css: ['~/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    '~/plugins/appear.client.js',
+    '~/plugins/clickOutside.client',
+    '~/plugins/scrollanimation.client.js',
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -47,5 +51,9 @@ export default {
   build: {},
   tailwindcss: {
     jit: true,
+  },
+  router: {
+    linkActiveClass: 'text-black',
+    linkExactActiveClass: 'text-black',
   },
 }

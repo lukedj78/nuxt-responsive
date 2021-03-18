@@ -22,3 +22,23 @@ body {
   height: 100vh;
   @apply bg-gray-100;
 }
+
+.before-enter {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: all 1s ease-out;
+}
+.enter {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.before-left-enter {
+  opacity: 0;
+  transform: translateX(50%);
+  transition: all 1s ease-out;
+}
+.left-enter {
+  opacity: 1;
+  transform: translateX(0%);
+}
