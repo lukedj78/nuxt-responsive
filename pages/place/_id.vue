@@ -2,11 +2,9 @@
   <div>
     <Hero />
     <div class="m-10 md:m-20 lg:mx-64">
-      <div
-        class="grid grid-cols-1 md:grid-cols-5 gap-y-20 md:gap-20 text-gray-600"
-      >
+      <div class="flex text-gray-600">
         <div
-          class="col-span-2 md:border-solid md:border-r-2 md:border-gray-300 md:pr-10"
+          class="max-w-xs md:border-solid md:border-r-2 md:border-gray-300 md:pr-10"
         >
           <div class="font-bold text-2xl mb-5 text-black">
             Quisque viverra interdum velit?
@@ -30,7 +28,7 @@
             suspendisse quis ultricies dis tellus cum, litora aliquet.
           </p>
         </div>
-        <div class="col-span-3">
+        <div class="pl-10">
           <div class="mb-10">
             <div class="flex items-center font-bold text-xl pb-5 text-black">
               <BaseAvatar />
