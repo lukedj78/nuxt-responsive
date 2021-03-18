@@ -42,7 +42,32 @@ export default {
     '@nuxtjs/axios',
     // https://www.npmjs.com/package/@nuxtjs/svg
     '@nuxtjs/svg',
+    // https://firebase.nuxtjs.org/
+    '@nuxtjs/firebase',
   ],
+
+  firebase: {
+    config: {
+      apiKey: 'AIzaSyBZKoEGrAkcvIO0szCr4dRdqiQEMenZWjQ',
+      authDomain: 'nuxt-app-18726.firebaseapp.com',
+      projectId: 'nuxt-app-18726',
+      storageBucket: 'nuxt-app-18726.appspot.com',
+      messagingSenderId: '571243869669',
+      appId: '1:571243869669:web:9eb107c5362d40af5deb0c',
+      measurementId: 'G-K3Y5GGVXZH',
+    },
+    services: {
+      auth: true,
+      firestore: true,
+      functions: true,
+      storage: true,
+      database: true,
+      messaging: true,
+      performance: true,
+      analytics: true,
+      remoteConfig: true,
+    },
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
